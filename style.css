@@ -1,0 +1,392 @@
+*{
+    overflow-x: hidden;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+/* nav{
+    position: fixed;
+    z-index: 999;
+    padding: 0.1em;
+    width: 100%;
+}
+nav #logo{
+    font-size: bold;
+    color: rgb(255, 136, 0);
+}
+nav  ul{
+    display: none;
+} */
+#heroimg{
+    width: 100vw;
+    opacity: 0.2;
+}
+.herobtn{
+    width : 8em;
+    height: 2.5em;
+    margin-bottom: 0.2em;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    border: none;
+    margin-top: 3em;
+    transition: 0.6s;
+}
+.herobtn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 136, 0);
+}
+.herobtn a{
+    text-decoration: none;
+    color: black;
+}
+#callforaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+#herosec{
+    position: relative;
+    text-align: center;
+}
+#tagline{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 4em;
+    width: 100%;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+}
+
+/* about */
+#aboutimg{
+      width: 70%;
+      margin: 0% auto;
+}
+.textabt{
+    width: 23em;
+    text-align: justify;
+}
+#abtdiv{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+
+}
+#abtdiv h2{
+    color: rgb(255, 136, 0);
+    text-align: center;
+}
+/* privacy */
+#privacy{
+    color: rgb(255, 136, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+}
+#privacyButton{
+ margin-top: 2em;
+ margin-bottom: 2em;
+ border-radius: 45px;
+    font-weight: bold;
+    font-weight: bold;
+    border: none;
+    text-align:center;
+  transition: 0.4s;
+  height: 2em;
+  width: 10em;
+}
+#privacypara{
+    width: 20em;
+}
+#privacyButton a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#privacyButton:hover{
+    background-color: rgb(255, 136, 0);
+}
+#privacyDiv{
+    display: none;
+    
+}
+#close{
+    background-color: transparent;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    float: right;
+    border:none;
+}
+#close a {
+    text-decoration: none;
+    color: black;
+}
+/* contact */
+
+#contact{
+    background-color: rgb(0, 0, 0);
+}
+#contactcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contactform{
+    background-color: black;
+    margin-top: 1em;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    width: 20em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#contactform form{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 90%;
+}
+#contactform form input{
+    width:90% ;
+    margin-bottom: 1em;
+}
+#message{
+    height: 10em;
+}
+#contactform form  #btn{
+    width: 10em;
+    font-size: smaller;
+    font-weight: bold;
+    height: 2em;
+    border-radius: 45px;
+}
+#contactul li{
+     color: rgb(255, 136, 0);
+} 
+/* footer */
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+}
+footer #containerfooter #form{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+
+}
+footer #containerfooter #form ul{
+    margin-left: 1em;
+    margin-bottom: 0.2em;
+}
+footer #containerfooter #form ul li{
+  
+    font-size: 1.2rem;
+
+}
+
+
+#copyright{
+    text-align: center;
+}
+
+
+@media only screen and (min-width:768px){
+
+ 
+    
+    h1{
+        font-size: 3rem;
+        margin-bottom: 0%;
+    }
+    #tagline{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 4em;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+    left: 0%;
+}
+.herobtn{
+    width : 15em;
+    height: 3em;
+    margin-bottom: 0.2em;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    margin-top: 3em;
+    transition: 0.6s;
+}
+.herobtn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 136, 0);
+}
+.herobtn a{
+    text-decoration: none;
+    color: black;
+}
+    #heroimg{
+        width: 100%;
+        height: 100vh;
+    }
+   
+    /* about */
+#aboutimg{
+      width: 30em;
+      margin: 0% auto;
+}
+.textabt{
+    width: 23em;
+    text-align: justify;
+}
+#abtdiv{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 2em;
+
+}
+#abtdiv h2{
+    color: rgb(255, 136, 0);
+    text-align: center;
+}
+/* privacy */
+#privacy{
+    margin-top: 3em;
+    color: rgb(255, 136, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+     text-align: center;
+}
+#privacy h3{
+    font-size: 1.8rem;
+}
+#privacyButton{
+    margin-top: 1em;
+    border-radius: 45px;
+    font-weight: bold;
+    font-weight: bold;
+    border: none;
+    
+    margin-bottom: 1em;
+
+}
+#privacypara{
+    width: 30em;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+#privacyDiv{
+    display: none;
+    font-size: 2rem;
+    width: 30em;
+    
+}
+#close{
+    background-color: transparent;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    float: right;
+    border:none;
+}
+#close a {
+    text-decoration: none;
+    color: black;
+}
+/* contact */
+
+#contact{
+    background-color: rgb(0, 0, 0);
+}
+#contactcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#contactform{
+    background-color: black;
+    border-radius: 0.4em;
+    width:25em;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#contactform form{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 90%;
+}
+#contactform form input{
+    width:90% ;
+    margin-bottom: 1em;
+}
+#message{
+    height: 20em;
+}
+#contactform form  #btn{
+    width: 10em;
+    font-size: smaller;
+    font-weight: bold;
+}
+#contactul li{
+     color: rgb(255, 136, 0);
+     font-size: 1.5rem !important;
+
+} 
+input{
+    height: 2em;
+};
+section{
+    height:  100vh;
+}
+}
+@media only screen and (max-width:1313px){
+       
+   /* nav ul {
+        display: none;
+   } */
+}
